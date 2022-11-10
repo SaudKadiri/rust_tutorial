@@ -12,7 +12,8 @@
 // mod structs;
 // mod enums;
 // mod cli;
-mod threads;
+// mod threads;
+mod ds;
 
 fn main() {
     // print::run();
@@ -29,5 +30,6 @@ fn main() {
     // structs::run();
     // enums::run();
     // cli::run();
-    threads::run();
+    // threads::run();
+    ds::run();
 }
